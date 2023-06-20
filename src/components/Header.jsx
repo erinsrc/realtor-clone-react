@@ -55,7 +55,7 @@ export default function Header() {
                 (pathMatchRoute("/sign-in") || pathMatchRoute("/profile")) &&
                 "!text-black !border-b-red-500"
               }`}
-              onClick={() => navigate("/sign-in")}
+              onClick={() => navigate("/profile")}
             >
               {pageState}
             </li>
